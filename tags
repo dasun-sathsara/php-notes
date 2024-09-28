@@ -1,0 +1,164 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	X:/Dev/PHP/hello/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/80ee839/
+App	Core/App.php	/^class App$/;"	c	line:8	namespace:Core
+App	controllers/NotesController/destroy.php	/^use Core\\{App, Database, Response};$/;"	a	line:3	typeref:unknown:Core\\App
+App	controllers/NotesController/edit.php	/^use Core\\App;$/;"	a	line:5	typeref:unknown:Core\\App
+App	controllers/NotesController/index.php	/^use Core\\App;$/;"	a	line:4	typeref:unknown:Core\\App
+App	controllers/NotesController/show.php	/^use Core\\App;$/;"	a	line:5	typeref:unknown:Core\\App
+App	controllers/NotesController/store.php	/^use Core\\App;$/;"	a	line:5	typeref:unknown:Core\\App
+App	controllers/NotesController/update.php	/^use Core\\{App, Database, Response, Validator};$/;"	a	line:3	typeref:unknown:Core\\App
+App	controllers/RegistrationController/authenticate.php	/^use Core\\{App, Database, Validator};$/;"	a	line:3	typeref:unknown:Core\\App
+App	controllers/RegistrationController/store.php	/^use Core\\{App, Database, Validator};$/;"	a	line:3	typeref:unknown:Core\\App
+App	public/index.php	/^use Core\\{Database, App};$/;"	a	line:5	typeref:unknown:Core\\App
+Container	Core/App.php	/^use Core\\Container;$/;"	a	line:6	namespace:Core	typeref:unknown:Core\\Container
+Container	Core/Container.php	/^class Container$/;"	c	line:8	namespace:Core
+Core	Core/App.php	/^namespace Core;$/;"	n	line:4
+Core	Core/Container.php	/^namespace Core;$/;"	n	line:4
+Core	Core/Database.php	/^namespace Core;$/;"	n	line:3
+Core	Core/Response.php	/^namespace Core;$/;"	n	line:3
+Core	Core/Router.php	/^namespace Core;$/;"	n	line:3
+Core	Core/Validator.php	/^namespace Core;$/;"	n	line:3
+Core	Core/routes.php	/^namespace Core;$/;"	n	line:3
+Database	Core/Database.php	/^class Database$/;"	c	line:9	namespace:Core
+Database	controllers/NotesController/destroy.php	/^use Core\\{App, Database, Response};$/;"	a	line:3	typeref:unknown:Core\\Database
+Database	controllers/NotesController/edit.php	/^use Core\\Database;$/;"	a	line:3	typeref:unknown:Core\\Database
+Database	controllers/NotesController/index.php	/^use Core\\Database;$/;"	a	line:3	typeref:unknown:Core\\Database
+Database	controllers/NotesController/show.php	/^use Core\\Database;$/;"	a	line:3	typeref:unknown:Core\\Database
+Database	controllers/NotesController/store.php	/^use Core\\Database;$/;"	a	line:3	typeref:unknown:Core\\Database
+Database	controllers/NotesController/update.php	/^use Core\\{App, Database, Response, Validator};$/;"	a	line:3	typeref:unknown:Core\\Database
+Database	controllers/RegistrationController/authenticate.php	/^use Core\\{App, Database, Validator};$/;"	a	line:3	typeref:unknown:Core\\Database
+Database	controllers/RegistrationController/store.php	/^use Core\\{App, Database, Validator};$/;"	a	line:3	typeref:unknown:Core\\Database
+Database	public/index.php	/^use Core\\{Database, App};$/;"	a	line:5	typeref:unknown:Core\\Database
+Exception	Core/Container.php	/^use Exception;$/;"	a	line:6	namespace:Core	typeref:unknown:Exception
+INTERNAL_SERVER_ERROR	Core/Response.php	/^    const INTERNAL_SERVER_ERROR = 500;$/;"	d	line:10	class:Core\\Response
+UNAUTHORIZED	Core/Response.php	/^    const UNAUTHORIZED = 403;$/;"	d	line:8	class:Core\\Response
+NOT_FOUND	Core/Response.php	/^    const NOT_FOUND = 404;$/;"	d	line:7	class:Core\\Response
+PDO	Core/Database.php	/^use PDO;$/;"	a	line:5	namespace:Core	typeref:unknown:PDO
+PDOException	Core/Database.php	/^use PDOException;$/;"	a	line:6	namespace:Core	typeref:unknown:PDOException
+PDOStatement	Core/Database.php	/^use PDOStatement;$/;"	a	line:7	namespace:Core	typeref:unknown:PDOStatement
+Response	Core/Response.php	/^class Response$/;"	c	line:5	namespace:Core
+Response	Core/functions.php	/^use Core\\Response;$/;"	a	line:3	typeref:unknown:Core\\Response
+Response	controllers/NotesController/destroy.php	/^use Core\\{App, Database, Response};$/;"	a	line:3	typeref:unknown:Core\\Response
+Response	controllers/NotesController/edit.php	/^use Core\\Response;$/;"	a	line:4	typeref:unknown:Core\\Response
+Response	controllers/NotesController/show.php	/^use Core\\Response;$/;"	a	line:4	typeref:unknown:Core\\Response
+Response	controllers/NotesController/update.php	/^use Core\\{App, Database, Response, Validator};$/;"	a	line:3	typeref:unknown:Core\\Response
+Router	Core/Router.php	/^class Router$/;"	c	line:5	namespace:Core
+Validator	Core/Validator.php	/^class Validator$/;"	c	line:5	namespace:Core
+Validator	controllers/NotesController/store.php	/^use Core\\Validator;$/;"	a	line:4	typeref:unknown:Core\\Validator
+Validator	controllers/NotesController/update.php	/^use Core\\{App, Database, Response, Validator};$/;"	a	line:3	typeref:unknown:Core\\Validator
+Validator	controllers/RegistrationController/authenticate.php	/^use Core\\{App, Database, Validator};$/;"	a	line:3	typeref:unknown:Core\\Validator
+Validator	controllers/RegistrationController/store.php	/^use Core\\{App, Database, Validator};$/;"	a	line:3	typeref:unknown:Core\\Validator
+__construct	Core/Container.php	/^    public function __construct(array $services = [])$/;"	f	line:13	class:Core\\Container	access:public	signature:(array $services = [])
+__construct	Core/Database.php	/^    public function __construct(array $config)$/;"	f	line:13	class:Core\\Database	access:public	signature:(array $config)
+abort	Core/Router.php	/^    private function abort(int $code = Response::NOT_FOUND): void$/;"	f	line:14	class:Core\\Router	typeref:unknown:void	access:private	signature:(int $code = Response NOT_FOUND)
+abort	Core/functions.php	/^function abort(int $code = Response::NOT_FOUND,): void$/;"	f	line:38	typeref:unknown:void	signature:(int $code = Response NOT_FOUND, )
+base_path	Core/functions.php	/^function base_path(string $path = ''): string$/;"	f	line:18	typeref:unknown:string	signature:(string $path = '')
+bind	Core/App.php	/^    public static function bind(string $name, $builder): void$/;"	f	line:19	class:Core\\App	typeref:unknown:void	access:public	signature:(string $name, $builder)
+bind	Core/Container.php	/^    public function bind(string $name, $builder): void$/;"	f	line:19	class:Core\\Container	typeref:unknown:void	access:public	signature:(string $name, $builder)
+class	public/index.php	/^    $class = str_replace('\\\\', '\/', $class);$/;"	v	line:8
+connection	Core/Database.php	/^    private $connection;$/;"	v	line:11	class:Core\\Database	access:private
+container	Core/App.php	/^    protected static $container;$/;"	v	line:10	class:Core\\App	access:protected
+currentUserID	controllers/NotesController/destroy.php	/^$currentUserID = $_SESSION['user_id'];$/;"	v	line:5
+currentUserID	controllers/NotesController/edit.php	/^$currentUserID = $_SESSION['user_id'];$/;"	v	line:7
+currentUserID	controllers/NotesController/index.php	/^$currentUserID = $_SESSION['user_id'];$/;"	v	line:8
+currentUserID	controllers/NotesController/show.php	/^$currentUserID = $_SESSION['user_id'];$/;"	v	line:7
+currentUserID	controllers/NotesController/update.php	/^$currentUserID = $_SESSION['user_id'];$/;"	v	line:5
+db	controllers/NotesController/destroy.php	/^$db = App::resolve(Database::class);$/;"	v	line:8
+db	controllers/NotesController/edit.php	/^$db = App::resolve(Database::class);$/;"	v	line:10
+db	controllers/NotesController/index.php	/^$db = App::resolve(Database::class);$/;"	v	line:10
+db	controllers/NotesController/show.php	/^$db = App::resolve(Database::class);$/;"	v	line:10
+db	controllers/NotesController/store.php	/^$db = App::resolve(Database::class);$/;"	v	line:11
+db	controllers/NotesController/update.php	/^$db = App::resolve(Database::class);$/;"	v	line:8
+db	controllers/RegistrationController/authenticate.php	/^$db = App::resolve(Database::class);$/;"	v	line:5
+db	controllers/RegistrationController/store.php	/^$db = App::resolve(Database::class);$/;"	v	line:5
+dd	Core/functions.php	/^function dd(mixed $value): never$/;"	f	line:5	typeref:unknown:never	signature:(mixed $value)
+delete	Core/Router.php	/^    public function delete(string $uri, string $controller): self$/;"	f	line:39	class:Core\\Router	typeref:class:Router	access:public	signature:(string $uri, string $controller)
+email	Core/Validator.php	/^    static function email(string $value): bool$/;"	f	line:13	class:Core\\Validator	typeref:unknown:bool	signature:(string $value)
+email	controllers/RegistrationController/authenticate.php	/^$email = $_POST['email'];$/;"	v	line:9
+email	controllers/RegistrationController/store.php	/^$email = $_POST['email'];$/;"	v	line:10
+errors	controllers/NotesController/create.php	/^$errors = [];$/;"	v	line:6
+errors	controllers/NotesController/edit.php	/^$errors = [];$/;"	v	line:31
+errors	controllers/NotesController/store.php	/^$errors = [];$/;"	v	line:12
+errors	controllers/NotesController/update.php	/^$errors = [];$/;"	v	line:25
+errors	controllers/RegistrationController/authenticate.php	/^$errors = [];$/;"	v	line:7
+errors	controllers/RegistrationController/store.php	/^$errors = [];$/;"	v	line:7
+fetchAll	Core/Database.php	/^    public function fetchAll(string $sql, array $params = []): array$/;"	f	line:45	class:Core\\Database	typeref:unknown:array	access:public	signature:(string $sql, array $params = [])
+fetchOne	Core/Database.php	/^    public function fetchOne(string $sql, array $params = []): array|false$/;"	f	line:40	class:Core\\Database	typeref:unknown:array	access:public	signature:(string $sql, array $params = [])
+get	Core/Router.php	/^    public function get(string $uri, string $controller): self$/;"	f	line:21	class:Core\\Router	typeref:class:Router	access:public	signature:(string $uri, string $controller)
+init	Core/App.php	/^    public static function init(): void$/;"	f	line:12	class:Core\\App	typeref:unknown:void	access:public	signature:()
+method	Core/routes.php	/^$method = $_POST['_method'] ?? $_SERVER["REQUEST_METHOD"];$/;"	v	line:33	namespace:Core
+name	controllers/RegistrationController/store.php	/^$name = $_POST['name'];$/;"	v	line:9
+note	controllers/NotesController/edit.php	/^$note = $db->fetchOne("SELECT * FROM notes WHERE id = :id ", [$/;"	v	line:12
+note	controllers/NotesController/show.php	/^$note = $db->fetchOne("SELECT * FROM notes WHERE id = :id ", [$/;"	v	line:12
+noteContent	controllers/NotesController/create.php	/^$noteContent = '';$/;"	v	line:5
+noteContent	controllers/NotesController/destroy.php	/^$noteContent = $db->fetchOne("SELECT * FROM notes WHERE id = :id ", [$/;"	v	line:10
+noteContent	controllers/NotesController/edit.php	/^$noteContent = $note['content'];$/;"	v	line:30
+noteContent	controllers/NotesController/show.php	/^$noteContent = $note['content'];$/;"	v	line:30
+noteContent	controllers/NotesController/store.php	/^$noteContent = $_POST['noteContent'];$/;"	v	line:15
+noteContent	controllers/NotesController/store.php	/^$noteContent = '';$/;"	v	line:10
+noteContent	controllers/NotesController/update.php	/^$noteContent = $_POST['noteContent'];$/;"	v	line:24
+noteContent	controllers/NotesController/update.php	/^$noteContent = $db->fetchOne("SELECT * FROM notes WHERE id = :id ", [$/;"	v	line:10
+noteID	controllers/NotesController/destroy.php	/^$noteID = $_POST['id'];$/;"	v	line:6
+noteID	controllers/NotesController/edit.php	/^$noteID = $_GET['id'];$/;"	v	line:8
+noteID	controllers/NotesController/show.php	/^$noteID = $_GET['id'];$/;"	v	line:8
+noteID	controllers/NotesController/update.php	/^$noteID = $_POST['id'];$/;"	v	line:6
+notes	controllers/NotesController/index.php	/^$notes = $db->fetchAll("SELECT * FROM notes WHERE user_id = :user_id", ['user_id' => $currentUse/;"	v	line:12
+pageTitle	controllers/NotesController/create.php	/^$pageTitle = "Create Note";$/;"	v	line:2
+pageTitle	controllers/NotesController/edit.php	/^$pageTitle = "Edit Note";$/;"	v	line:28
+pageTitle	controllers/NotesController/index.php	/^$pageTitle = "My Notes";$/;"	v	line:6
+pageTitle	controllers/NotesController/show.php	/^$pageTitle = $note['title'];$/;"	v	line:31
+pageTitle	controllers/NotesController/store.php	/^$pageTitle = "Create Note";$/;"	v	line:7
+pageTitle	controllers/NotesController/update.php	/^$pageTitle = "Update Note";$/;"	v	line:22
+pageTitle	controllers/RegistrationController/authenticate.php	/^$pageTitle = "Login";$/;"	v	line:11
+pageTitle	controllers/RegistrationController/login.php	/^$pageTitle = "Login";$/;"	v	line:3
+pageTitle	controllers/RegistrationController/register.php	/^$pageTitle = "Register";$/;"	v	line:3
+pageTitle	controllers/RegistrationController/store.php	/^$pageTitle = "Create an account";$/;"	v	line:13
+pageTitle	controllers/about.php	/^$pageTitle = "About Us";$/;"	v	line:3
+pageTitle	controllers/contact.php	/^$pageTitle = "Contact Us";$/;"	v	line:3
+pageTitle	controllers/index.php	/^$pageTitle = "ModernSite";$/;"	v	line:3
+pageTitle	controllers/services.php	/^$pageTitle = "Services";$/;"	v	line:3
+pageTitle	views/403.view.php	/^$pageTitle = "403 Unauthorized";$/;"	v	line:3
+pageTitle	views/404.view.php	/^$pageTitle = "404 Not Found";$/;"	v	line:3
+pageTitle	views/notes/create.view.php	/^$pageTitle = "Create a new note";$/;"	v	line:4
+pageTitle	views/registration/login.view.php	/^$pageTitle = "Login to your account";$/;"	v	line:4
+pageTitle	views/registration/register.view.php	/^$pageTitle = "Create an account";$/;"	v	line:4
+password	Core/Validator.php	/^    static function password(string $value, int $min, int|float $max): bool$/;"	f	line:23	class:Core\\Validator	typeref:unknown:bool	signature:(string $value, int $min, int float $max)
+password	controllers/RegistrationController/authenticate.php	/^$password = $_POST['password'];$/;"	v	line:10
+password	controllers/RegistrationController/store.php	/^$password = $_POST['password'];$/;"	v	line:11
+password_confirmation	controllers/RegistrationController/store.php	/^$password_confirmation = $_POST['confirm-password'];$/;"	v	line:12
+patch	Core/Router.php	/^    public function patch(string $uri, string $controller): self$/;"	f	line:45	class:Core\\Router	typeref:class:Router	access:public	signature:(string $uri, string $controller)
+post	Core/Router.php	/^    public function post(string $uri, string $controller): self$/;"	f	line:27	class:Core\\Router	typeref:class:Router	access:public	signature:(string $uri, string $controller)
+put	Core/Router.php	/^    public function put(string $uri, string $controller): self$/;"	f	line:33	class:Core\\Router	typeref:class:Router	access:public	signature:(string $uri, string $controller)
+query	Core/Database.php	/^    public function query(string $sql, array $params = []): PDOStatement$/;"	f	line:32	class:Core\\Database	typeref:unknown:PDOStatement	access:public	signature:(string $sql, array $params = [])
+register	Core/Router.php	/^    private function register(string $uri, string $method, string $controller): void$/;"	f	line:9	class:Core\\Router	typeref:unknown:void	access:private	signature:(string $uri, string $method, string $controller)
+resolve	Core/App.php	/^    public static function resolve(string $name): mixed$/;"	f	line:25	class:Core\\App	typeref:unknown:mixed	access:public	signature:(string $name)
+resolve	Core/Container.php	/^    public function resolve(string $name)$/;"	f	line:24	class:Core\\Container	access:public	signature:(string $name)
+resolved	Core/Container.php	/^    private $resolved;$/;"	v	line:11	class:Core\\Container	access:private
+route	Core/Router.php	/^    public function route(string $uri, string $method)$/;"	f	line:51	class:Core\\Router	access:public	signature:(string $uri, string $method)
+router	Core/routes.php	/^$router = new Router();$/;"	v	line:5	namespace:Core
+routes	Core/Router.php	/^    private $routes = [];$/;"	v	line:7	class:Core\\Router	access:private
+services	Core/Container.php	/^    private $services;$/;"	v	line:10	class:Core\\Container	access:private
+string	Core/Validator.php	/^    static function string(string $value, int $min, int|float $max): bool$/;"	f	line:7	class:Core\\Validator	typeref:unknown:bool	signature:(string $value, int $min, int float $max)
+title	controllers/NotesController/create.php	/^$title = '';$/;"	v	line:4
+title	controllers/NotesController/edit.php	/^$title = $note['title'];$/;"	v	line:29
+title	controllers/NotesController/show.php	/^$title = $note['title'];$/;"	v	line:29
+title	controllers/NotesController/store.php	/^$title = $_POST['title'];$/;"	v	line:14
+title	controllers/NotesController/store.php	/^$title = '';$/;"	v	line:9
+title	controllers/NotesController/update.php	/^$title = $_POST['title'];$/;"	v	line:23
+uri	Core/routes.php	/^$uri = parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH);$/;"	v	line:31	namespace:Core
+url_is	Core/functions.php	/^function url_is(string $url): bool$/;"	f	line:13	typeref:unknown:bool	signature:(string $url)
+user	controllers/NotesController/edit.php	/^$user = $db->fetchOne("SELECT * FROM users WHERE id = :id", [$/;"	v	line:24
+user	controllers/NotesController/show.php	/^$user = $db->fetchOne("SELECT * FROM users WHERE id = :id", [$/;"	v	line:24
+user	controllers/RegistrationController/authenticate.php	/^    $user = $db->fetchOne('SELECT * FROM users WHERE email = :email', ['email' => $email]);$/;"	v	line:18
+user	controllers/RegistrationController/store.php	/^$user = $db->fetchOne('SELECT * FROM users WHERE email = :email', ['email' => $email]);$/;"	v	line:15
+userName	controllers/NotesController/show.php	/^$userName = $user['name'];$/;"	v	line:28
+view	Core/functions.php	/^function view(string $view, array $data = []): void$/;"	f	line:31	typeref:unknown:void	signature:(string $view, array $data = [])
